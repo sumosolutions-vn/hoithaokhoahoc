@@ -5,7 +5,7 @@
 const VIDEOS = [
   {
     code: "01",
-    category: "project",
+    category: "enterprise",
     tag: "Dự án tiêu biểu · Sumo Solutions",
     title: "Sumo x Samsung — Ứng dụng thực tế giải pháp UAV & Robotics",
     description:
@@ -14,30 +14,30 @@ const VIDEOS = [
   },
   {
     code: "02",
-    category: "seminar",
-    tag: "Doanh nghiệp & Tự chủ công nghệ",
-    title: "Tọa đàm: Từ nghiên cứu, tự chủ UAV đến phát triển kinh tế tầm thấp",
+    category: "infrastructure",
+    tag: "Hạ tầng giao thông · UAV Dock tự động",
+    title: "Lắp đặt Dock UAV cho nút giao cao tốc Ma Lâm — Giám sát hạ tầng tự động",
     description:
-      "Thảo luận về làm chủ công nghệ lõi, chuỗi cung ứng phần cứng không người lái và vai trò của doanh nghiệp địa phương trong hệ sinh thái kinh tế tầm thấp.",
-    url: "https://www.youtube.com/watch?v=w0C8Gq9JipI",
+      "Thực tiễn triển khai trạm sạc & vận hành tự động (UAV Dock) của Sumo Robotics tại nút giao cao tốc Ma Lâm, phục vụ giám sát tiến độ, lưu lượng và hạ tầng giao thông trọng điểm.",
+    url: "https://www.youtube.com/watch?v=GGMmfs9GO0I",
   },
   {
     code: "03",
-    category: "project",
-    tag: "Ứng dụng UAV · Lâm nghiệp & Môi trường",
-    title: "Trồng Rừng Quy Nhơn — Ứng dụng UAV trong gieo trồng và phát triển bền vững",
-    description:
-      "Thực tiễn triển khai thiết bị bay không người lái (UAV) của Sumo Robotics hỗ trợ trồng rừng tại Quy Nhơn, mở ra hướng ứng dụng kinh tế tầm thấp trong lâm nghiệp và bảo vệ môi trường.",
-    url: "https://www.youtube.com/watch?v=Y2Dp9eNiK3k",
-  },
-  {
-    code: "04",
-    category: "project",
+    category: "enterprise",
     tag: "Dự án tiêu biểu · Sumo Robotics",
     title: "Sumo x Nestlé — Triển khai thực tế giải pháp UAV & Robotics cho doanh nghiệp",
     description:
       "Video ghi nhận thực tiễn hợp tác triển khai giải pháp công nghệ UAV và Robotics giữa Sumo Robotics và Nestlé, minh chứng hiệu quả ứng dụng vào vận hành và chuỗi giá trị doanh nghiệp.",
     url: "https://www.youtube.com/watch?v=FPhDByZVXVc",
+  },
+  {
+    code: "04",
+    category: "infrastructure",
+    tag: "Ứng dụng UAV · Lâm nghiệp & Môi trường",
+    title: "Trồng Rừng Quy Nhơn — Ứng dụng UAV trong gieo trồng và phát triển bền vững",
+    description:
+      "Thực tiễn triển khai thiết bị bay không người lái (UAV) của Sumo Robotics hỗ trợ trồng rừng tại Quy Nhơn, mở ra hướng ứng dụng kinh tế tầm thấp trong lâm nghiệp và bảo vệ môi trường.",
+    url: "https://www.youtube.com/watch?v=Y2Dp9eNiK3k",
   },
 ];
 
