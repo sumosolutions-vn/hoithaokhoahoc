@@ -5,7 +5,7 @@
 const VIDEOS = [
   {
     code: "01",
-    category: "vietnam",
+    category: "project",
     tag: "Dự án tiêu biểu · Sumo Solutions",
     title: "Sumo x Samsung — Ứng dụng thực tế giải pháp UAV & Robotics",
     description:
@@ -14,7 +14,7 @@ const VIDEOS = [
   },
   {
     code: "02",
-    category: "vietnam",
+    category: "seminar",
     tag: "Doanh nghiệp & Tự chủ công nghệ",
     title: "Tọa đàm: Từ nghiên cứu, tự chủ UAV đến phát triển kinh tế tầm thấp",
     description:
@@ -23,21 +23,21 @@ const VIDEOS = [
   },
   {
     code: "03",
-    category: "global",
-    tag: "Ứng dụng ưu tiên & Robotics",
-    title: "Drones, Robots & Kinh tế Tầm thấp: Sự hình thành của một ngành công nghiệp mới",
+    category: "project",
+    tag: "Ứng dụng UAV · Lâm nghiệp & Môi trường",
+    title: "Trồng Rừng Quy Nhơn — Ứng dụng UAV trong gieo trồng và phát triển bền vững",
     description:
-      "Các lĩnh vực ứng dụng ưu tiên của UAV và robot tự hành trong logistics, nông nghiệp thông minh, giám sát hạ tầng và quản trị đô thị hiện đại.",
-    url: "https://www.youtube.com/watch?v=8URt5zkHvwY",
+      "Thực tiễn triển khai thiết bị bay không người lái (UAV) của Sumo Robotics hỗ trợ trồng rừng tại Quy Nhơn, mở ra hướng ứng dụng kinh tế tầm thấp trong lâm nghiệp và bảo vệ môi trường.",
+    url: "https://www.youtube.com/watch?v=Y2Dp9eNiK3k",
   },
   {
     code: "04",
-    category: "global",
-    tag: "Mô hình thực tiễn quốc tế",
-    title: "Kinh nghiệm phát triển Kinh tế Tầm thấp và quy hoạch không phận thương mại",
+    category: "project",
+    tag: "Dự án tiêu biểu · Sumo Robotics",
+    title: "Sumo x Nestlé — Triển khai thực tế giải pháp UAV & Robotics cho doanh nghiệp",
     description:
-      "Bài học thực tế trong tổ chức vận hành mạng lưới UAV thương mại, phương tiện bay tầm thấp và cơ chế phối hợp giữa chính quyền với doanh nghiệp.",
-    url: "https://www.youtube.com/watch?v=cHxMx3bDbxE",
+      "Video ghi nhận thực tiễn hợp tác triển khai giải pháp công nghệ UAV và Robotics giữa Sumo Robotics và Nestlé, minh chứng hiệu quả ứng dụng vào vận hành và chuỗi giá trị doanh nghiệp.",
+    url: "https://www.youtube.com/watch?v=FPhDByZVXVc",
   },
 ];
 
