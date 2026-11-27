@@ -80,7 +80,7 @@ async function buildPoster() {
   </svg>
 
   <!-- Footer -->
-  <text x="600" y="1404" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="700" fill="#FACC15">Quét mã QR để xem 04 video tham luận</text>
+  <text x="600" y="1404" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="700" fill="#FACC15">Quét mã QR để xem video tham luận</text>
   <text x="600" y="1456" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#CBD5E1">Công ty TNHH Sumo Robotics</text>
   <rect x="220" y="1504" width="760" height="54" rx="10" fill="#111622" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
   <text x="600" y="1539" text-anchor="middle" font-family="Consolas, monospace" font-size="22" font-weight="500" fill="#E2E8F0">${escapeXml(shortUrl)}</text>

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CẤU HÌNH 04 VIDEO THAM LUẬN — PHÁT TRIỂN KINH TẾ TẦM THẤP Ở THANH HÓA
+   CẤU HÌNH VIDEO THAM LUẬN — PHÁT TRIỂN KINH TẾ TẦM THẤP Ở THANH HÓA
    Bạn có thể đổi đường dẫn video bất kỳ lúc nào bằng cách thay trường `url`
    ========================================================================== */
 const VIDEOS = [
@@ -89,10 +89,9 @@ function escapeHtml(str) {
 }
 
 // ==========================================================================
-// Render 4 Clean Video Cards
+// Render Clean Video Cards
 // ==========================================================================
 const videoGridEl = document.getElementById("video-grid");
-const filterButtons = document.querySelectorAll(".filter-btn");
 
 function buildCoverMarkup(video) {
   const id = extractYouTubeId(video.url);
@@ -114,10 +113,8 @@ function buildCoverMarkup(video) {
   `;
 }
 
-function renderVideos(filter = "all") {
-  const list = filter === "all" ? VIDEOS : VIDEOS.filter((v) => v.category === filter);
-
-  videoGridEl.innerHTML = list
+function renderVideos() {
+  videoGridEl.innerHTML = VIDEOS
     .map((video) => {
       return `
         <article class="video-card" data-code="${video.code}">
@@ -176,18 +173,6 @@ function resetAllInlineVideos() {
     }
   });
 }
-
-filterButtons.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    filterButtons.forEach((b) => {
-      b.classList.remove("is-active");
-      b.setAttribute("aria-selected", "false");
-    });
-    btn.classList.add("is-active");
-    btn.setAttribute("aria-selected", "true");
-    renderVideos(btn.dataset.filter);
-  });
-});
 
 // ==========================================================================
 // Fullscreen Video Modal
@@ -460,7 +445,7 @@ btnDownloadPoster.addEventListener("click", async () => {
   // Footer CTA
   ctx.fillStyle = "#FACC15";
   ctx.font = "700 33px 'Be Vietnam Pro', sans-serif";
-  ctx.fillText("Quét mã QR để xem 04 video tham luận", W / 2, 1404);
+  ctx.fillText("Quét mã QR để xem video tham luận", W / 2, 1404);
 
   ctx.fillStyle = "#CBD5E1";
   ctx.font = "600 24px 'Be Vietnam Pro', sans-serif";
@@ -525,5 +510,5 @@ function showToast(msg) {
   }, 2400);
 }
 
-renderVideos("all");
+renderVideos();
 initQrUrl();
