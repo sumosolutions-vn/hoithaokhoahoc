@@ -39,6 +39,15 @@ const VIDEOS = [
       "Thực tiễn triển khai thiết bị bay không người lái (UAV) của Sumo Robotics hỗ trợ trồng rừng tại Quy Nhơn, mở ra hướng ứng dụng kinh tế tầm thấp trong lâm nghiệp và bảo vệ môi trường.",
     url: "https://www.youtube.com/watch?v=Y2Dp9eNiK3k",
   },
+  {
+    code: "05",
+    category: "infrastructure",
+    tag: "Ứng dụng UAV · Hàng hải & Đường thủy",
+    title: "Sông Lòng Tàu — Ứng dụng UAV khảo sát và giám sát tuyến đường thủy",
+    description:
+      "Thực tiễn triển khai giải pháp UAV của Sumo Robotics trên tuyến sông Lòng Tàu, phục vụ khảo sát, giám sát hành lang đường thủy và hỗ trợ quản lý hạ tầng hàng hải.",
+    url: "https://www.youtube.com/watch?v=didtaPL4JT4",
+  },
 ];
 
 function extractYouTubeId(url) {
