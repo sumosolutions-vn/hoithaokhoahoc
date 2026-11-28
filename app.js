@@ -5,21 +5,21 @@
 const VIDEOS = [
   {
     code: "01",
-    category: "enterprise",
-    tag: "Dự án tiêu biểu · Sumo Solutions",
-    title: "Sumo x Samsung — Ứng dụng thực tế giải pháp UAV & Robotics",
-    description:
-      "Video giới thiệu thực tiễn triển khai giải pháp công nghệ UAV và Robotics của Sumo Solutions hợp tác cùng Samsung, minh họa năng lực ứng dụng công nghiệp thực tế.",
-    url: "https://www.youtube.com/watch?v=M-vRU1hPscY",
-  },
-  {
-    code: "02",
     category: "infrastructure",
     tag: "Hạ tầng giao thông · UAV Dock tự động",
     title: "Triển khai hệ thống UAV Dock 3 tại nút giao cao tốc Ma Lâm – Giải pháp giám sát hạ tầng giao thông thông minh",
     description:
       "Thực tiễn triển khai giải pháp DJI Dock 3 tích hợp UAV của SUMO SOLUTIONS tại nút giao Ma Lâm, thuộc tuyến cao tốc Vĩnh Hảo – Phan Thiết, hướng đến tự động hóa hoạt động tuần tra, giám sát tiến độ thi công, theo dõi hiện trạng hạ tầng và hỗ trợ quản lý giao thông từ xa, góp phần nâng cao hiệu quả vận hành và tối ưu nguồn lực quản lý.",
     url: "https://www.youtube.com/watch?v=GGMmfs9GO0I",
+  },
+  {
+    code: "02",
+    category: "enterprise",
+    tag: "Dự án tiêu biểu · Sumo Solutions",
+    title: "Sumo x Samsung — Ứng dụng thực tế giải pháp UAV & Robotics",
+    description:
+      "Video giới thiệu thực tiễn triển khai giải pháp công nghệ UAV và Robotics của Sumo Solutions hợp tác cùng Samsung, minh họa năng lực ứng dụng công nghiệp thực tế.",
+    url: "https://www.youtube.com/watch?v=M-vRU1hPscY",
   },
   {
     code: "03",
