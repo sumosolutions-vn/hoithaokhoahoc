@@ -16,9 +16,9 @@ const VIDEOS = [
     code: "02",
     category: "infrastructure",
     tag: "Hạ tầng giao thông · UAV Dock tự động",
-    title: "Lắp đặt Dock UAV cho nút giao cao tốc Ma Lâm — Giám sát hạ tầng tự động",
+    title: "Triển khai hệ thống UAV Dock 3 tại nút giao cao tốc Ma Lâm – Giải pháp giám sát hạ tầng giao thông thông minh",
     description:
-      "Thực tiễn triển khai trạm sạc & vận hành tự động (UAV Dock) của Sumo Robotics tại nút giao cao tốc Ma Lâm, phục vụ giám sát tiến độ, lưu lượng và hạ tầng giao thông trọng điểm.",
+      "Thực tiễn triển khai giải pháp DJI Dock 3 tích hợp UAV của SUMO SOLUTIONS tại nút giao Ma Lâm, thuộc tuyến cao tốc Vĩnh Hảo – Phan Thiết, hướng đến tự động hóa hoạt động tuần tra, giám sát tiến độ thi công, theo dõi hiện trạng hạ tầng và hỗ trợ quản lý giao thông từ xa, góp phần nâng cao hiệu quả vận hành và tối ưu nguồn lực quản lý.",
     url: "https://www.youtube.com/watch?v=GGMmfs9GO0I",
   },
   {
