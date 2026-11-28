@@ -43,9 +43,9 @@ const VIDEOS = [
     code: "05",
     category: "infrastructure",
     tag: "Ứng dụng UAV · Hàng hải & Đường thủy",
-    title: "Sông Lòng Tàu — Ứng dụng UAV khảo sát và giám sát tuyến đường thủy",
+    title: "Sông Lòng Tàu – Ứng dụng UAV đa phổ trong khảo sát và giám sát hành lang đường thủy",
     description:
-      "Thực tiễn triển khai giải pháp UAV của Sumo Robotics trên tuyến sông Lòng Tàu, phục vụ khảo sát, giám sát hành lang đường thủy và hỗ trợ quản lý hạ tầng hàng hải.",
+      "Thực tiễn triển khai giải pháp UAV tích hợp cảm biến đa phổ của SUMO SOLUTIONS trên tuyến sông Lòng Tàu, khảo sát hành lang dài khoảng 60 km, thu thập và phân tích dữ liệu NDVI, GNDVI, NDRE nhằm đánh giá sức khỏe thảm thực vật, giám sát biến động môi trường và hỗ trợ quản lý hạ tầng hàng hải với chi phí tối ưu.",
     url: "https://www.youtube.com/watch?v=didtaPL4JT4",
   },
 ];
