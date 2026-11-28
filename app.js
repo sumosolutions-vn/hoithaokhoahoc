@@ -14,6 +14,15 @@ const VIDEOS = [
   },
   {
     code: "02",
+    category: "training",
+    tag: "Đào tạo nhân lực UAV · VUTC",
+    title: "Trung tâm Đào tạo UAV Việt Nam (VUTC) – Khẳng định vị thế tiên phong",
+    description:
+      "Phim giới thiệu Trung tâm Đào tạo UAV Việt Nam (VUTC), tiên phong chuẩn hóa đào tạo phi công điều khiển thiết bị bay không người lái, xây dựng nguồn nhân lực chất lượng cao phục vụ phát triển Kinh tế Tầm thấp (LAE) tại Việt Nam.",
+    url: "https://www.youtube.com/watch?v=aV2ymR_ilpc",
+  },
+  {
+    code: "03",
     category: "enterprise",
     tag: "Dự án tiêu biểu · Sumo Solutions",
     title: "Sumo x Samsung — Ứng dụng thực tế giải pháp UAV & Robotics",
@@ -22,7 +31,7 @@ const VIDEOS = [
     url: "https://www.youtube.com/watch?v=M-vRU1hPscY",
   },
   {
-    code: "03",
+    code: "04",
     category: "enterprise",
     tag: "Dự án tiêu biểu · Sumo Robotics",
     title: "Sumo x Nestlé — Triển khai thực tế giải pháp UAV & Robotics cho doanh nghiệp",
@@ -31,7 +40,7 @@ const VIDEOS = [
     url: "https://www.youtube.com/watch?v=FPhDByZVXVc",
   },
   {
-    code: "04",
+    code: "05",
     category: "infrastructure",
     tag: "Ứng dụng UAV · Lâm nghiệp & Môi trường",
     title: "Trồng Rừng Quy Nhơn — Ứng dụng UAV trong gieo trồng và phát triển bền vững",
@@ -40,7 +49,7 @@ const VIDEOS = [
     url: "https://www.youtube.com/watch?v=Y2Dp9eNiK3k",
   },
   {
-    code: "05",
+    code: "06",
     category: "infrastructure",
     tag: "Ứng dụng UAV · Hàng hải & Đường thủy",
     title: "Sông Lòng Tàu – Ứng dụng UAV đa phổ trong khảo sát và giám sát hành lang đường thủy",
